@@ -12,6 +12,9 @@ const handleGetFlags = () => {
                      <img src=${country.flags.png}>
                      <h3>${country.name.official}</h3>
                      <p>${country.capital}</p>
+                     <span>${country.population} people</span>
+                     <p>${country.area} km²</p>
+                     <button class="mapbtn"><a href="${country.maps.googleMaps}">Google map</a></button>
                 </div>
                 </div>
                 `
